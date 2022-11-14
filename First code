@@ -1,0 +1,35 @@
+public class Main {
+    public static void main(String[] args) {
+        String first_name = "Renad";
+        String last_name = "Aldoweesh";
+        System.out.println(first_name+" "+last_name);
+        int age = 25;
+        System.out.println(age);
+        int num1 = 3;
+        int num2 = 6;
+        int sum = num1 + num2;
+        System.out.println(sum);
+        int avg = sum/2;
+        System.out.println(avg);
+        int width = 5;
+        int length = 7;
+        int area = width*length;
+        int P = 2*width + 2*length;
+        System.out.println(area);
+        System.out.println(P);
+        boolean z;
+        int num3 = 23;
+        int num4 = 45;
+        z = num4 == num3;
+        System.out.println(z);
+        boolean y;
+        boolean x;
+        int a = 55;
+        int b = 70;
+        y = a < 50;
+        x = a < b;
+        System.out.println(y);
+        System.out.println(x);
+        System.out.println(y||x);
+    }
+}
